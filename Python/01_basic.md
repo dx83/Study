@@ -15,7 +15,12 @@ day = "three"
 
 "Error is %d%%." % 98
 # 'Error is 98%.'
+
+"I ate {0} apples. so I was sick for {1} days.".format(number, day)
+# 'I ate 10 apples. so I was sick for three days.'
+"I ate {number} apples. so I was sick for {day} days.".format(number=10, day=3)
+# 'I ate 10 apples. so I was sick for 3 days.'
 ```
-%d : 정수
-%s : 문자열
+- %d : 정수
+- %s : 문자열, 어떤 형태의 값이든 문자열로 바꾸어 대입
 
