@@ -20,6 +20,10 @@ day = "three"
 # 'I ate 10 apples. so I was sick for three days.'
 "I ate {number} apples. so I was sick for {day} days.".format(number=10, day=3)
 # 'I ate 10 apples. so I was sick for 3 days.'
+
+y = 3.42134234
+"{0:0.4f}".format(y)
+# '3.4213'
 ```
 - %d : 정수
 - %s : 문자열, 어떤 형태의 값이든 문자열로 바꾸어 대입
