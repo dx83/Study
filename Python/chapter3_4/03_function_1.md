@@ -23,22 +23,7 @@ def say():
 
 <br>
 
-`매개변수 지정`
-```python
-def sub(a=7, b=4):
-    return a - b
-result = sub()      # 3
-
-def sub(a, b=4):
-    return a - b
-result = sub(5)     # 1
-
-def sub(a=7, b):    # 오류
-```
-
-<br>
-
-`여러 개의 입력값을 받는 함수 만들기`
+> 여러 개의 입력값을 받는 함수 만들기
 ```python
 def 함수명(*매개변수):
 
@@ -68,7 +53,27 @@ result = add_mul('mul', 1, 2, 3, 4, 5)      # 120
 
 <br>
 
-`키워드 매개변수, kwargs`
-```python
+> 키워드 매개변수, kwargs
+```py
+hon
+# **매개변수
+def print_kwargs(**kwargs):
+    print(kwargs)
 
+print_kwargs(name='foo', age=3) # key, value의 딕셔너리 형태
+# {'name': 'foo', 'age': 3}
+
+# 내가 만든 예시
+def name(a):
+    print(a, end=" ")
+
+def num(b):
+    b += 1
+    print(b)
+
+def print_kw(**args):
+    name(args["c"])
+    num(args["d"])
+
+print_kw(c="python", d=6)       # python 7
 ```
