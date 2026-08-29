@@ -12,7 +12,7 @@ students = [
     {"name": "sally", "age": 17, "grade": 'B'},
 ]
 
-result = sorted(students, key=itemgetter('age')) # 나이순으로 정렬
+result = sorted(students, key=itemgetter('age')) # 나이순으로 정렬, reverse=True 내림차순
 # {'name': 'sally', 'age': 17, 'grade': 'B'}
 # {'name': 'jane', 'age': 22, 'grade': 'A'}
 # {'name': 'dave', 'age': 32, 'grade': 'B'}
