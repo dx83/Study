@@ -11,8 +11,9 @@ uv remove 패키지명       # 패키지 제거
 ```
 
 ```powershell
-uv run python 파일명.py  # 파이썬 실행ㅔ
+uv run python 파일명.py  # 파이썬 실행
 
+uv venv                 # 가상환경 생성
 
 ```
 
