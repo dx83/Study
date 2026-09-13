@@ -14,6 +14,8 @@ uv remove 패키지명       # 패키지 제거
 uv run python 파일명.py  # 파이썬 실행
 
 uv venv                 # 가상환경 생성
-
 ```
 
+```powershell
+uv run fastapi dev      # main.py 가 있는 곳에서 실행
+```
